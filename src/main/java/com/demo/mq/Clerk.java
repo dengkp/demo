@@ -8,7 +8,7 @@ package com.demo.mq;
  */
 public class Clerk {
     public int product;
-    boolean have = false;
+    boolean have;
 
     public synchronized void product(int product) throws InterruptedException {
         if (have) {
@@ -24,9 +24,8 @@ public class Clerk {
         if (!have) {
             wait();
         }
-        int p = this.product;
-        System.out.println("Consumer get :" + p);
         have = false;
+        System.out.println("Consumer get :" + this.product);
         notify();
     }
 

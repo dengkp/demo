@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c28600af-9ed2-4cb7-9b22-e55eec80d691" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RpcFramework$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RpcFramework$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RpcFramework.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/design/pattern/proxy/dynamic/DyProxyFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/design/pattern/proxy/dynamic/TEST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/design/pattern/proxy/dynamic/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/design/pattern/proxy/stati/DynamicProxyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/design/pattern/proxy/stati/ProxyFactory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/design/pattern/proxy/stati/ProxyFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/design/pattern/proxy/stati/StaticProxyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/design/pattern/proxy/stati/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/design/pattern/proxy/stati/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/design/pattern/proxy/stati/UserProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/rpc/RpcFramework$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/rpc/RpcFramework$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/rpc/RpcFramework.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/mq/Clerk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/mq/Clerk.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -111,8 +95,8 @@
       <file leaf-file-name="Clerk.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/mq/Clerk.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="570">
+              <caret line="30" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -450,7 +434,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525748712830</updated>
-      <workItem from="1525748717218" duration="11891000" />
+      <workItem from="1525748717218" duration="12025000" />
     </task>
     <servers />
   </component>
@@ -469,7 +453,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11891000" />
+    <option name="totallyTimeSpent" value="12025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -483,15 +467,15 @@
       <window_info anchor="right" id="Maven Projects" weight="0.1429652" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25365853" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25365853" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.40166414" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40166414" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.23414634" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.23414634" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -798,8 +782,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/mq/Clerk.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        <state relative-caret-position="570">
+          <caret line="30" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="30" />
         </state>
       </provider>
     </entry>
