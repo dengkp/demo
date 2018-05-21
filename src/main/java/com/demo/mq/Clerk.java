@@ -7,26 +7,55 @@ package com.demo.mq;
  * Since: 1.0
  */
 public class Clerk {
-    public int product;
-    boolean have;
 
-    public synchronized void product(int product) throws InterruptedException {
+    private int product;
+    private boolean have;
+
+    public synchronized void pro(int product) throws InterruptedException {
+
         if (have) {
             wait();
         }
+
         have = true;
         this.product = product;
-        System.out.println("product prod :" + product);
-        notify();
+        System.out.println("pro===>" + product);
+        notifyAll();
     }
 
-    public synchronized void consumer() throws InterruptedException {
+    public synchronized void cu() throws InterruptedException {
         if (!have) {
             wait();
         }
         have = false;
-        System.out.println("Consumer get :" + this.product);
-        notify();
+        System.out.println("cu===>" + product);
+        notifyAll();
+
     }
 
+
 }
+
+
+//    int product;
+//    boolean have;
+//
+//
+//    public synchronized void pro(int product) throws InterruptedException {
+//        if (have) {
+//            wait();
+//        }
+//        have = true;
+//        this.product = product;
+//        System.out.println("p:" + product);
+//        notify();
+//    }
+//
+//    public synchronized void cu() throws InterruptedException {
+//        if (!have) {
+//            wait();
+//        }
+//        have = false;
+//        System.out.println("c:" + product);
+//        notify();
+//    }
